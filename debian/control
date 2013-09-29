@@ -1,0 +1,14 @@
+Source: devuntu-desktop
+Section: utils
+Priority: optional
+Maintainer: Devuntu-devops <devubuntu@gmail.com>
+Uploaders: Angel Berlanas Vicente <angel.berlanas@gmail.com>, Raul Rodrigo Segura <raurodse@gmail.com>
+Build-Depends: debhelper (>= 7.0), cdbs 
+Standards-Version: 3.9.3
+
+Package: devuntu-desktop
+Architecture: all
+Depends: ${misc:Depends}, ${devuntu-desktop:Depends}
+Description: Contains devuntu-desktop dependences
+ This package contains the : devuntu-desktop dependences
+ resources.
